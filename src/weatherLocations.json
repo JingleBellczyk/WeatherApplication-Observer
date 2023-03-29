@@ -1,0 +1,44 @@
+[
+  {
+    "location": "Wroclaw",
+    "temperature": 1,
+    "humidity": 1,
+    "pressure": 1
+  },
+  {
+    "location": "Poznan",
+    "temperature": 1,
+    "humidity": null,
+    "pressure": 1
+  },
+  {
+    "location": "Krakow",
+    "temperature": 1,
+    "humidity": null,
+    "pressure": 1
+  },
+  {
+    "location": "Warszawa",
+    "temperature": 1,
+    "humidity": 1,
+    "pressure": null
+  },
+  {
+    "location": "Gdansk",
+    "temperature": null,
+    "humidity": 1,
+    "pressure": 1
+  },
+  {
+    "location": "Zakopane",
+    "temperature": 1,
+    "humidity": 1,
+    "pressure": 1
+  },
+  {
+    "location": "Chrzaszczyzewoszyce",
+    "temperature": 1,
+    "humidity": null,
+    "pressure": null
+  }
+]

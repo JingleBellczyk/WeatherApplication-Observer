@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="junit-platform-engine">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../../jars/junit-platform-engine" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../../jars/junit-platform-engine" recursive="false" />
+  </library>
+</component>

@@ -1,0 +1,7 @@
+"Wroclaw"
+"Krakow"
+"Warszawa"
+"Poznan"
+"Zakopane"
+"Gdansk"
+"Lublin"

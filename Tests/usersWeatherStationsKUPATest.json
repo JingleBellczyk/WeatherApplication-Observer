@@ -1,0 +1,20 @@
+[
+  {
+    "location": "Wroclaw",
+    "temperature": 2,
+    "humidity": 1,
+    "pressure": 1
+  },
+  {
+    "location": "Poznan",
+    "temperature": 1,
+    "humidity": null,
+    "pressure": 1
+  },
+  {
+    "location": "Krakow",
+    "temperature": 22.9,
+    "humidity": null,
+    "pressure": 1
+  }
+]
