@@ -5,18 +5,18 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class KUPATest {
+class UserAppTest {
     CSI csi;
     User u;
-    UserApp kupa;
+    UserApp userApp;
     List<WeatherStation> myList = new ArrayList<>();
 
     void set() {
         csi = new CSI();
         u = new User("a", "b", true, "name.json"); // when user is created, empty file is created
-        u.setFileName("Tests/usersWeatherStationsKUPATest.json"); //checked file
+        u.setFileName("Tests/usersWeatherStationsUserAppTest.json"); //checked file
 
-        kupa = new UserApp(u, csi);
+        userApp = new UserApp(u, csi);
         WeatherStation w1 = new WeatherStation("Wroclaw", 2f, 1f, 1f);
         WeatherStation w2 = new WeatherStation("Poznan", 1f, null, 1f);
         WeatherStation w3 = new WeatherStation("Krakow", 22.9f, null, 1f);
@@ -28,7 +28,7 @@ class KUPATest {
     @Test
     void load() {
         set();
-        List<WeatherStation> result = kupa.load();
+        List<WeatherStation> result = userApp.load();
         //Assertions.assertArrayEquals(new List[]{Arrays.asList(myList)}, new List[]{Arrays.asList(result)});
         //assert (myList.equals(result)) : "not equal";
         //assertEquals(myList.toString(),result.toString());
