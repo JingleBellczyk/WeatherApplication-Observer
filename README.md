@@ -1,4 +1,26 @@
 # WeatherApplication-Observer
+
+[ENG]
+### An application implementing the Observer design pattern
+This application allows users to register as observers of selected weather stations. The weather data is **updated every 5 seconds** and is randomly generated. The project uses serialization to and from `.json` files, and unit tests are written using `JUnit`.
+
+---------------------------------------------
+The user can:
+- register
+- choose the cities they want to observe
+- display the current weather data in the console
+- have their data saved to a .json file
+
+---------------------------------------------
+Classes:
+- CSI - implements Thread, holds a list of observers which it notifies of weather data updates
+- UserApp - manages user interaction, allows them to observe new weather stations, save data to a file, or print it to the console
+- RandomWeatherValues - generates random temperature, humidity, and pressure values
+- Menu - handles user communication
+Files:
+- the weatherLocations.json file contains a list of cities.
+
+[PL]
 ### Aplikacja implementująca wzorzec Obserwator
 
 Aplikacja w której użytkownik może zarejestrować się jako odbiorca danych wybranych stacji pogodowych.
